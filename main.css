@@ -1,0 +1,106 @@
+
+
+html{
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: darkcyan;
+    padding: 5px;
+}
+body{
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: olive;
+
+}
+
+nav a:hover{
+    background-color: aquamarine;
+    border-style: none;
+}
+
+.home{
+    text-align: center;
+    background-color: green;
+}
+footer{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 80%;
+ 
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    
+}
+
+.opleidingen{
+    background-color: green;
+    margin: 5px;
+}
+
+.werkervaring{
+    background-color: green;
+    margin: 5px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+}
+
+td, th{
+    padding: 10px 5px;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 0px;
+    width: 200px;
+    box-sizing: border-box;
+    
+    
+}
+
+.formulier{
+    display: flex;
+  justify-content: center;   /* horizontaal centreren */
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+button:active{
+    background-color: blue;
+    color: white;
+}
